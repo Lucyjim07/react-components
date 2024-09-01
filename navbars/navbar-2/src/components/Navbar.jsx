@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* mobile-menu */}
-      {open ? (
+      {open === true ? (
         <div className="md:hidden">
           <div className="ox-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navlinks.map((link, index) => (

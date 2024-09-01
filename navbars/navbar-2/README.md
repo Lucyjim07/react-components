@@ -1,8 +1,16 @@
-# React + Vite
+# Enseñanzas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Crea una lista de objetos con los titulos y los links de referencia para crear los elementos <a>
 
-Currently, two official plugins are available:
+- Usa un elemento span para colocar el nombre del botón del menu, creo que es para accesibilidad, para las personas que usan lectores de pantalla por limitaciones visuales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```jsx
+<button type="button">
+  <span className="sr-only">Open Main Menu</span>
+  <i class="menu-bar"></i>
+</button>
+```
+
+- 💢 crea 2 veces el menu, uno para el diseño normal y otro para el mobile en lugar de adaptar el diseño existente con media queries.
+
+- 💢 usa muchas clases de tailwinds que considero son innecesarias
