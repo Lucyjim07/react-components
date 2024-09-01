@@ -11,3 +11,4 @@ También el navbar puede ser adaptable a pantallas más pequeñas lo que hace qu
 ## Diseño navbar-1
 
 Es un diseño básico que solo contienen 3 secciones dentro del navbar, un logo, un conjunto de links y un botón organizados en 2 diferentes alineaciones. No es responsive.
+![Diseño navbar 1](./assets/images/navbar_1.jpg)
